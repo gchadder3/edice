@@ -3,7 +3,8 @@
 This is a simple demo for using Docker to containerize a normal console Python app.  The Docker image
 is [here on Docker Hub](https://hub.docker.com/repository/docker/gchadder3/edice).  To use this (assuming 
 you have a working Docker installation on your machine) do the following:
-* `docker pull gchadder3/edice` to pull the image from Docker Hub.
+* `docker pull gchadder3/edice` to pull the image from Docker Hub.  (This is optional; the next command 
+will pull from Docker Hub if you don't have the image on your local machine.)
 * `docker run -i -t gchadder3/edice` to run the application.  (-i = interactive mode, -t = terminal mode)
 
 To install from this repo
